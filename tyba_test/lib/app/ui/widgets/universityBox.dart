@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tyba_test/app/context/settings/app_settings.dart';
-import 'package:tyba_test/app/ui/views/universityDetailView.dart';
 import 'package:tyba_test/core/entities/models/university.dart';
 
 class UniversityBox extends StatelessWidget {
@@ -43,9 +42,7 @@ class UniversityBox extends StatelessWidget {
           ],
         ),
       ),
-      onTap: () => Navigator.pushReplacementNamed(
-          context, UniversityDetailView.route,
-          arguments: model),
+      onTap: (){},
     );
   }
 }

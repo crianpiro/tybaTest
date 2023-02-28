@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tyba_test/app/context/settings/app_settings.dart';
-import 'package:tyba_test/app/ui/views/universityDetailView.dart';
 import 'package:tyba_test/core/entities/models/university.dart';
 
 class UniversityTile extends StatelessWidget {
@@ -27,9 +26,7 @@ class UniversityTile extends StatelessWidget {
             Icons.arrow_forward_ios,
             color: appSettings.secondaryColor,
           )),
-      onTap: () => Navigator.pushReplacementNamed(
-          context, UniversityDetailView.route,
-          arguments: model),
+      onTap: (){},
     );
   }
 }
